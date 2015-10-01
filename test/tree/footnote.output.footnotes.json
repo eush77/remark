@@ -33,21 +33,6 @@
             },
             "indent": []
           }
-        },
-        {
-          "type": "text",
-          "value": ".",
-          "position": {
-            "start": {
-              "line": 1,
-              "column": 31
-            },
-            "end": {
-              "line": 1,
-              "column": 32
-            },
-            "indent": []
-          }
         }
       ],
       "position": {
@@ -57,7 +42,7 @@
         },
         "end": {
           "line": 1,
-          "column": 32
+          "column": 31
         },
         "indent": []
       }
@@ -97,7 +82,7 @@
         },
         {
           "type": "text",
-          "value": " neque et diam rhoncus convallis.",
+          "value": " neque et diam rhoncus convallis",
           "position": {
             "start": {
               "line": 3,
@@ -105,7 +90,7 @@
             },
             "end": {
               "line": 3,
-              "column": 51
+              "column": 50
             },
             "indent": []
           }
@@ -118,7 +103,7 @@
         },
         "end": {
           "line": 3,
-          "column": 51
+          "column": 50
         },
         "indent": []
       }
@@ -178,7 +163,7 @@
             },
             {
               "type": "text",
-              "value": " elit. Praesent dictum purus ullamcorper ligula semper pellentesque",
+              "value": " elit, praesent dictum purus ullamcorper ligula semper pellentesque",
               "position": {
                 "start": {
                   "line": 5,
@@ -205,21 +190,6 @@
                 },
                 "indent": []
               }
-            },
-            {
-              "type": "text",
-              "value": ".",
-              "position": {
-                "start": {
-                  "line": 5,
-                  "column": 104
-                },
-                "end": {
-                  "line": 5,
-                  "column": 105
-                },
-                "indent": []
-              }
             }
           ],
           "position": {
@@ -229,7 +199,7 @@
             },
             "end": {
               "line": 5,
-              "column": 105
+              "column": 104
             },
             "indent": []
           }
@@ -250,7 +220,7 @@
                   "children": [
                     {
                       "type": "text",
-                      "value": "Containing a list.",
+                      "value": "Containing a list",
                       "position": {
                         "start": {
                           "line": 7,
@@ -258,7 +228,7 @@
                         },
                         "end": {
                           "line": 7,
-                          "column": 27
+                          "column": 26
                         },
                         "indent": []
                       }
@@ -271,7 +241,7 @@
                     },
                     "end": {
                       "line": 7,
-                      "column": 27
+                      "column": 26
                     },
                     "indent": []
                   }
@@ -284,7 +254,7 @@
                 },
                 "end": {
                   "line": 7,
-                  "column": 27
+                  "column": 26
                 },
                 "indent": []
               }
@@ -297,7 +267,7 @@
             },
             "end": {
               "line": 7,
-              "column": 27
+              "column": 26
             },
             "indent": []
           }
@@ -310,7 +280,7 @@
         },
         "end": {
           "line": 7,
-          "column": 31
+          "column": 30
         },
         "indent": [
           1,
@@ -327,7 +297,7 @@
           "children": [
             {
               "type": "text",
-              "value": "Nam dictum sapien nec sem ultrices fermentum. Nulla ",
+              "value": "Nam dictum sapien nec sem ultrices fermentum, nulla ",
               "position": {
                 "start": {
                   "line": 9,
@@ -373,7 +343,7 @@
             },
             {
               "type": "text",
-              "value": ". In et feugiat massa.",
+              "value": ", in et feugiat massa",
               "position": {
                 "start": {
                   "line": 9,
@@ -381,7 +351,7 @@
                 },
                 "end": {
                   "line": 9,
-                  "column": 93
+                  "column": 92
                 },
                 "indent": []
               }
@@ -394,7 +364,7 @@
             },
             "end": {
               "line": 9,
-              "column": 93
+              "column": 92
             },
             "indent": []
           }
@@ -407,7 +377,7 @@
         },
         "end": {
           "line": 9,
-          "column": 93
+          "column": 92
         },
         "indent": []
       }
@@ -467,7 +437,7 @@
             },
             {
               "type": "text",
-              "value": ", non euismod velit pretium.",
+              "value": ", non euismod velit pretium",
               "position": {
                 "start": {
                   "line": 11,
@@ -475,7 +445,7 @@
                 },
                 "end": {
                   "line": 11,
-                  "column": 70
+                  "column": 69
                 },
                 "indent": []
               }
@@ -488,7 +458,7 @@
             },
             "end": {
               "line": 11,
-              "column": 70
+              "column": 69
             },
             "indent": []
           }
@@ -501,7 +471,7 @@
         },
         "end": {
           "line": 11,
-          "column": 70
+          "column": 69
         },
         "indent": []
       }

@@ -5,6 +5,7 @@
 var assert = require('assert');
 var he = require('he');
 var VFile = require('vfile');
+var extend = require('extend');
 var mdast = require('..');
 var fixtures = require('./fixtures.js');
 var badges = require('./badges.js');
@@ -650,7 +651,7 @@ describe('mdast.process(value, options, done)', function () {
     it('should run plugins', function () {
         assert(
             mdast.use(mentions).process('@mention') ===
-            '[@mention](https://github.com/blog/821)\n'
+            '[@mention](https://github\\.com/blog/821)\n'
         );
     });
 
@@ -738,10 +739,10 @@ describe('function attacher(mdast, options)', function () {
 
             assert(
                 mdast.use(mentions).process(doc) ===
-                'Hello w/ a [@mention](https://github.com/blog/821)!\n'
+                'Hello w/ a [@mention](https://github\\.com/blog/821)\\!\n'
             );
 
-            assert(mdast.process(doc) === doc);
+            assert(mdast.process(doc) === 'Hello w/ a @mention\\!\n');
         }
     );
 });
@@ -826,8 +827,8 @@ describe('function transformer(ast, file, next?)', function () {
 
         assert(
             source ===
-            '# mdast [![Version](http://img.shields.io/npm/v/mdast.svg)' +
-            '](https://www.npmjs.com/package/mdast)\n'
+            '# mdast [![Version](http://img\\.shields\\.io/npm/v/mdast' +
+            '\\.svg)](https://www\\.npmjs\\.com/package/mdast)\n'
         );
 
         source = mdast.use(badges, {
@@ -836,8 +837,8 @@ describe('function transformer(ast, file, next?)', function () {
 
         assert(
             source ===
-            '# mdast [![Version](http://img.shields.io/npm/v/mdast.svg' +
-            '?style=flat)](https://www.npmjs.com/package/mdast)\n'
+            '# mdast [![Version](http://img\\.shields\\.io/npm/v/mdast' +
+            '\\.svg?style=flat)](https://www\\.npmjs\\.com/package/mdast)\n'
         );
     });
 });
@@ -1115,6 +1116,33 @@ validateToken = function (context) {
 };
 
 /**
+ * Compress array of nodes by merging adjacent text nodes when possible.
+ *
+ * This usually happens inside Parser, but it also needs to be done whenever
+ * position info is stripped from the AST.
+ *
+ * @param {Array.<Object>} nodes
+ * @return {Array.<Object>}
+ */
+function mergeTextNodes(nodes) {
+    if (nodes.position || !nodes.length) {
+        return nodes;
+    }
+
+    var result = [nodes[0]];
+
+    nodes.slice(1).forEach(function (node) {
+        if (node.type == 'text' && result[result.length - 1].type == 'text') {
+            result[result.length - 1].value += node.value;
+        } else {
+            result.push(node);
+        }
+    });
+
+    return result;
+}
+
+/**
  * Clone, and optionally clean from `position`, a node.
  *
  * @param {Object} node
@@ -1136,7 +1164,7 @@ function clone(node, clean) {
         }
 
         /*
-         * Ignore `checked` attributes se to `null`,
+         * Ignore `checked` attributes set to `null`,
          * which only exist in `gfm` on list-items
          * without a checkbox.  This ensures less
          * needed fixtures.
@@ -1148,6 +1176,9 @@ function clone(node, clean) {
 
         if (value !== null && typeof value === 'object') {
             result[key] = clone(value, clean);
+            if (key === 'children' && clean) {
+                result[key] = mergeTextNodes(result[key]);
+            }
         } else {
             result[key] = value;
         }
@@ -1193,6 +1224,10 @@ describe('fixtures', function () {
             Object.keys(possibilities).forEach(function (key) {
                 var name = key || 'default';
                 var parse = possibilities[key];
+                var stringify = extend({}, fixture.stringify, {
+                    gfm: parse.gfm,
+                    commonmark: parse.commonmark
+                });
                 var initialClean = !parse.position;
                 var node;
                 var markdown;
@@ -1209,7 +1244,7 @@ describe('fixtures', function () {
 
                     compare(node, trees[mapping[key]], false, initialClean);
 
-                    markdown = mdast.stringify(node, fixture.stringify);
+                    markdown = mdast.stringify(node, stringify);
                 });
 
                 if (output !== false) {

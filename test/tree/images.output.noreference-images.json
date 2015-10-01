@@ -31,22 +31,67 @@
             },
             "end": {
               "line": 1,
-              "column": 64
+              "column": 66
             },
             "indent": []
           }
         },
         {
           "type": "text",
-          "value": ", consectetur adipiscing elit. Praesent dictum purus ullamcorper ligula semper pellentesque.",
+          "value": ", consectetur adipiscing elit",
           "position": {
             "start": {
               "line": 1,
-              "column": 64
+              "column": 66
             },
             "end": {
               "line": 1,
-              "column": 156
+              "column": 95
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 95
+            },
+            "end": {
+              "line": 1,
+              "column": 97
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": " Praesent dictum purus ullamcorper ligula semper pellentesque",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 97
+            },
+            "end": {
+              "line": 1,
+              "column": 158
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 158
+            },
+            "end": {
+              "line": 1,
+              "column": 160
             },
             "indent": []
           }
@@ -59,7 +104,7 @@
         },
         "end": {
           "line": 1,
-          "column": 156
+          "column": 160
         },
         "indent": []
       }
@@ -94,22 +139,82 @@
             },
             "end": {
               "line": 3,
-              "column": 59
+              "column": 61
             },
             "indent": []
           }
         },
         {
           "type": "text",
-          "value": " neque et diam rhoncus convallis. Nam dictum sapien nec sem ultrices fermentum. Nulla ",
+          "value": " neque et diam rhoncus convallis",
           "position": {
             "start": {
               "line": 3,
-              "column": 59
+              "column": 61
             },
             "end": {
               "line": 3,
-              "column": 145
+              "column": 93
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 93
+            },
+            "end": {
+              "line": 3,
+              "column": 95
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": " Nam dictum sapien nec sem ultrices fermentum",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 95
+            },
+            "end": {
+              "line": 3,
+              "column": 140
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 140
+            },
+            "end": {
+              "line": 3,
+              "column": 142
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": " Nulla ",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 142
+            },
+            "end": {
+              "line": 3,
+              "column": 149
             },
             "indent": []
           }
@@ -122,26 +227,56 @@
           "position": {
             "start": {
               "line": 3,
-              "column": 145
+              "column": 149
             },
             "end": {
               "line": 3,
-              "column": 201
+              "column": 207
             },
             "indent": []
           }
         },
         {
           "type": "text",
-          "value": ". In et feugiat massa.",
+          "value": ".",
           "position": {
             "start": {
               "line": 3,
-              "column": 201
+              "column": 207
             },
             "end": {
               "line": 3,
-              "column": 223
+              "column": 209
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": " In et feugiat massa",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 209
+            },
+            "end": {
+              "line": 3,
+              "column": 229
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 229
+            },
+            "end": {
+              "line": 3,
+              "column": 231
             },
             "indent": []
           }
@@ -154,7 +289,7 @@
         },
         "end": {
           "line": 3,
-          "column": 223
+          "column": 231
         },
         "indent": []
       }
@@ -164,7 +299,7 @@
       "children": [
         {
           "type": "text",
-          "value": "Donec sed sodales metus, ut aliquet quam. Suspendisse nec ipsum risus. Interdum et malesuada fames ac ante ipsum primis in ",
+          "value": "Donec sed sodales metus, ut aliquet quam",
           "position": {
             "start": {
               "line": 5,
@@ -172,7 +307,67 @@
             },
             "end": {
               "line": 5,
-              "column": 124
+              "column": 41
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 41
+            },
+            "end": {
+              "line": 5,
+              "column": 43
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": " Suspendisse nec ipsum risus",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 43
+            },
+            "end": {
+              "line": 5,
+              "column": 71
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 71
+            },
+            "end": {
+              "line": 5,
+              "column": 73
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": " Interdum et malesuada fames ac ante ipsum primis in ",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 73
+            },
+            "end": {
+              "line": 5,
+              "column": 126
             },
             "indent": []
           }
@@ -185,11 +380,11 @@
           "position": {
             "start": {
               "line": 5,
-              "column": 124
+              "column": 126
             },
             "end": {
               "line": 5,
-              "column": 181
+              "column": 185
             },
             "indent": []
           }
@@ -200,11 +395,11 @@
           "position": {
             "start": {
               "line": 5,
-              "column": 181
+              "column": 185
             },
             "end": {
               "line": 5,
-              "column": 182
+              "column": 187
             },
             "indent": []
           }
@@ -217,7 +412,7 @@
         },
         "end": {
           "line": 5,
-          "column": 182
+          "column": 187
         },
         "indent": []
       }
