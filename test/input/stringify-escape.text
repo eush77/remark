@@ -1,0 +1,29 @@
+Characters that should be escaped in general:
+
+\\ \` \* \[ \_
+
+Characters that shouldn't:
+
+{}]()#+-.!>"$%&',/:;=?@^~|
+
+Open parenthesis should be escaped after closing bracket:
+
+[ref]\(text)
+
+Hyphen should be escaped at the beginning of a line:
+
+\- not a list item
+\- not a list item
+  \- not a list item
+
+**Commonmark:**
+
+Colon should be escaped in URLs:
+
+- http\://protocol
+- https\://protocol
+
+Open angle bracket should be escaped:
+
+- \<div>\</div>
+- \<http\:google.com>

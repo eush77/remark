@@ -115,7 +115,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "baz;",
+                  "value": "baz.",
                   "position": {
                     "start": {
                       "line": 3,

@@ -651,7 +651,7 @@ describe('mdast.process(value, options, done)', function () {
     it('should run plugins', function () {
         assert(
             mdast.use(mentions).process('@mention') ===
-            '[@mention](https://github\\.com/blog/821)\n'
+            '[@mention](https://github.com/blog/821)\n'
         );
     });
 
@@ -739,10 +739,10 @@ describe('function attacher(mdast, options)', function () {
 
             assert(
                 mdast.use(mentions).process(doc) ===
-                'Hello w/ a [@mention](https://github\\.com/blog/821)\\!\n'
+                'Hello w/ a [@mention](https://github.com/blog/821)!\n'
             );
 
-            assert(mdast.process(doc) === 'Hello w/ a @mention\\!\n');
+            assert(mdast.process(doc) === doc);
         }
     );
 });
@@ -827,8 +827,8 @@ describe('function transformer(ast, file, next?)', function () {
 
         assert(
             source ===
-            '# mdast [![Version](http://img\\.shields\\.io/npm/v/mdast' +
-            '\\.svg)](https://www\\.npmjs\\.com/package/mdast)\n'
+            '# mdast [![Version](http://img.shields.io/npm/v/mdast.svg)' +
+            '](https://www.npmjs.com/package/mdast)\n'
         );
 
         source = mdast.use(badges, {
@@ -837,8 +837,8 @@ describe('function transformer(ast, file, next?)', function () {
 
         assert(
             source ===
-            '# mdast [![Version](http://img\\.shields\\.io/npm/v/mdast' +
-            '\\.svg?style=flat)](https://www\\.npmjs\\.com/package/mdast)\n'
+            '# mdast [![Version](http://img.shields.io/npm/v/mdast.svg' +
+            '?style=flat)](https://www.npmjs.com/package/mdast)\n'
         );
     });
 });

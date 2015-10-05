@@ -17,7 +17,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "foo bar baz",
+                  "value": "foo bar baz.",
                   "position": {
                     "start": {
                       "line": 1,
@@ -25,7 +25,7 @@
                     },
                     "end": {
                       "line": 1,
-                      "column": 15
+                      "column": 16
                     },
                     "indent": []
                   }
@@ -38,7 +38,7 @@
                 },
                 "end": {
                   "line": 1,
-                  "column": 15
+                  "column": 16
                 },
                 "indent": []
               }
@@ -51,7 +51,7 @@
             },
             "end": {
               "line": 1,
-              "column": 15
+              "column": 16
             },
             "indent": []
           }
@@ -64,7 +64,7 @@
         },
         "end": {
           "line": 1,
-          "column": 15
+          "column": 16
         },
         "indent": []
       }
@@ -100,7 +100,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "foo bar baz",
+                  "value": "foo bar baz.",
                   "position": {
                     "start": {
                       "line": 5,
@@ -108,7 +108,7 @@
                     },
                     "end": {
                       "line": 5,
-                      "column": 16
+                      "column": 17
                     },
                     "indent": []
                   }
@@ -121,7 +121,7 @@
                 },
                 "end": {
                   "line": 5,
-                  "column": 16
+                  "column": 17
                 },
                 "indent": []
               }
@@ -134,7 +134,7 @@
             },
             "end": {
               "line": 5,
-              "column": 16
+              "column": 17
             },
             "indent": []
           }
@@ -147,7 +147,7 @@
         },
         "end": {
           "line": 5,
-          "column": 16
+          "column": 17
         },
         "indent": []
       }
@@ -183,7 +183,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "foo bar baz",
+                  "value": "foo bar baz.",
                   "position": {
                     "start": {
                       "line": 9,
@@ -191,7 +191,7 @@
                     },
                     "end": {
                       "line": 9,
-                      "column": 17
+                      "column": 18
                     },
                     "indent": []
                   }
@@ -204,7 +204,7 @@
                 },
                 "end": {
                   "line": 9,
-                  "column": 17
+                  "column": 18
                 },
                 "indent": []
               }
@@ -217,7 +217,7 @@
             },
             "end": {
               "line": 9,
-              "column": 17
+              "column": 18
             },
             "indent": []
           }
@@ -230,7 +230,7 @@
         },
         "end": {
           "line": 9,
-          "column": 17
+          "column": 18
         },
         "indent": []
       }
@@ -266,7 +266,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "foo bar baz\nfoo bar baz",
+                  "value": "foo bar baz.\nfoo bar baz.",
                   "position": {
                     "start": {
                       "line": 13,
@@ -274,7 +274,7 @@
                     },
                     "end": {
                       "line": 14,
-                      "column": 16
+                      "column": 17
                     },
                     "indent": [
                       5
@@ -289,7 +289,7 @@
                 },
                 "end": {
                   "line": 14,
-                  "column": 16
+                  "column": 17
                 },
                 "indent": [
                   5
@@ -304,7 +304,7 @@
             },
             "end": {
               "line": 14,
-              "column": 16
+              "column": 17
             },
             "indent": [
               1
@@ -319,7 +319,7 @@
         },
         "end": {
           "line": 14,
-          "column": 16
+          "column": 17
         },
         "indent": [
           1
@@ -357,7 +357,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "foo bar baz\nfoo bar baz",
+                  "value": "foo bar baz.\nfoo bar baz.",
                   "position": {
                     "start": {
                       "line": 18,
@@ -365,7 +365,7 @@
                     },
                     "end": {
                       "line": 19,
-                      "column": 16
+                      "column": 17
                     },
                     "indent": [
                       5
@@ -380,7 +380,7 @@
                 },
                 "end": {
                   "line": 19,
-                  "column": 16
+                  "column": 17
                 },
                 "indent": [
                   5
@@ -395,7 +395,7 @@
             },
             "end": {
               "line": 19,
-              "column": 16
+              "column": 17
             },
             "indent": [
               1
@@ -410,7 +410,7 @@
         },
         "end": {
           "line": 19,
-          "column": 16
+          "column": 17
         },
         "indent": [
           1
@@ -448,7 +448,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "foo bar baz\nfoo bar baz",
+                  "value": "foo bar baz.\nfoo bar baz.",
                   "position": {
                     "start": {
                       "line": 23,
@@ -456,7 +456,7 @@
                     },
                     "end": {
                       "line": 24,
-                      "column": 20
+                      "column": 21
                     },
                     "indent": [
                       9
@@ -471,7 +471,7 @@
                 },
                 "end": {
                   "line": 24,
-                  "column": 20
+                  "column": 21
                 },
                 "indent": [
                   9
@@ -486,7 +486,7 @@
             },
             "end": {
               "line": 24,
-              "column": 20
+              "column": 21
             },
             "indent": [
               1
@@ -501,7 +501,7 @@
         },
         "end": {
           "line": 24,
-          "column": 20
+          "column": 21
         },
         "indent": [
           1
@@ -539,7 +539,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "foo bar baz",
+                  "value": "foo bar baz.",
                   "position": {
                     "start": {
                       "line": 28,
@@ -547,7 +547,7 @@
                     },
                     "end": {
                       "line": 28,
-                      "column": 14
+                      "column": 15
                     },
                     "indent": []
                   }
@@ -560,7 +560,7 @@
                 },
                 "end": {
                   "line": 28,
-                  "column": 14
+                  "column": 15
                 },
                 "indent": []
               }
@@ -573,7 +573,7 @@
             },
             "end": {
               "line": 28,
-              "column": 14
+              "column": 15
             },
             "indent": []
           }
@@ -586,7 +586,7 @@
         },
         "end": {
           "line": 28,
-          "column": 14
+          "column": 15
         },
         "indent": []
       }
@@ -622,7 +622,7 @@
               "children": [
                 {
                   "type": "text",
-                  "value": "foo bar baz\nfoo bar baz",
+                  "value": "foo bar baz.\nfoo bar baz.",
                   "position": {
                     "start": {
                       "line": 32,
@@ -630,7 +630,7 @@
                     },
                     "end": {
                       "line": 33,
-                      "column": 16
+                      "column": 17
                     },
                     "indent": [
                       5
@@ -645,7 +645,7 @@
                 },
                 "end": {
                   "line": 33,
-                  "column": 16
+                  "column": 17
                 },
                 "indent": [
                   5
@@ -660,7 +660,7 @@
             },
             "end": {
               "line": 33,
-              "column": 16
+              "column": 17
             },
             "indent": [
               1
@@ -675,7 +675,7 @@
         },
         "end": {
           "line": 33,
-          "column": 16
+          "column": 17
         },
         "indent": [
           1

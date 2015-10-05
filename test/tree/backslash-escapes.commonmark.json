@@ -1617,8 +1617,7 @@
           }
         },
         {
-          "type": "text",
-          "value": "\n",
+          "type": "break",
           "position": {
             "start": {
               "line": 71,

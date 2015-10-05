@@ -62,7 +62,7 @@
             },
             "end": {
               "line": 1,
-              "column": 30
+              "column": 29
             },
             "indent": []
           }
@@ -75,7 +75,7 @@
         },
         "end": {
           "line": 1,
-          "column": 30
+          "column": 29
         },
         "indent": []
       }
@@ -141,7 +141,7 @@
             },
             "end": {
               "line": 3,
-              "column": 50
+              "column": 49
             },
             "indent": []
           }
@@ -154,7 +154,7 @@
         },
         "end": {
           "line": 3,
-          "column": 50
+          "column": 49
         },
         "indent": []
       }
@@ -164,41 +164,11 @@
       "children": [
         {
           "type": "text",
-          "value": "Link without protocol, which should not render as an auto",
+          "value": "Link without protocol, which should not render as an auto-link\nbecause they are easily mistaken for HTML: ",
           "position": {
             "start": {
               "line": 5,
               "column": 1
-            },
-            "end": {
-              "line": 5,
-              "column": 58
-            },
-            "indent": []
-          }
-        },
-        {
-          "type": "text",
-          "value": "-",
-          "position": {
-            "start": {
-              "line": 5,
-              "column": 58
-            },
-            "end": {
-              "line": 5,
-              "column": 60
-            },
-            "indent": []
-          }
-        },
-        {
-          "type": "text",
-          "value": "link\nbecause they are easily mistaken for HTML: ",
-          "position": {
-            "start": {
-              "line": 5,
-              "column": 60
             },
             "end": {
               "line": 6,
@@ -216,7 +186,7 @@
           "children": [
             {
               "type": "text",
-              "value": "google",
+              "value": "google.com",
               "position": {
                 "start": {
                   "line": 6,
@@ -224,37 +194,7 @@
                 },
                 "end": {
                   "line": 6,
-                  "column": 51
-                },
-                "indent": []
-              }
-            },
-            {
-              "type": "text",
-              "value": ".",
-              "position": {
-                "start": {
-                  "line": 6,
-                  "column": 51
-                },
-                "end": {
-                  "line": 6,
-                  "column": 53
-                },
-                "indent": []
-              }
-            },
-            {
-              "type": "text",
-              "value": "com",
-              "position": {
-                "start": {
-                  "line": 6,
-                  "column": 53
-                },
-                "end": {
-                  "line": 6,
-                  "column": 56
+                  "column": 55
                 },
                 "indent": []
               }
@@ -267,7 +207,7 @@
             },
             "end": {
               "line": 6,
-              "column": 70
+              "column": 68
             },
             "indent": []
           }
@@ -278,11 +218,11 @@
           "position": {
             "start": {
               "line": 6,
-              "column": 70
+              "column": 68
             },
             "end": {
               "line": 6,
-              "column": 72
+              "column": 69
             },
             "indent": []
           }
@@ -295,7 +235,7 @@
         },
         "end": {
           "line": 6,
-          "column": 72
+          "column": 69
         },
         "indent": [
           1
