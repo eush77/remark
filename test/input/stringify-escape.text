@@ -20,6 +20,14 @@ Same for angle brackets:
 
 \> not a block quote
 
+Text under a shortcut reference should be preserved verbatim:
+
+- [two*three]
+- [two\*three]
+- [a\a]
+- [a\\a]
+- [a\\\a]
+
 **Commonmark:**
 
 Colon should be escaped in URLs:
