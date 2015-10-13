@@ -16,6 +16,10 @@ Hyphen should be escaped at the beginning of a line:
 \- not a list item
   \- not a list item
 
+Same for angle brackets:
+
+\> not a block quote
+
 **Commonmark:**
 
 Colon should be escaped in URLs:

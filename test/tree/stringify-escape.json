@@ -503,24 +503,8 @@
       "type": "paragraph",
       "children": [
         {
-          "type": "strong",
-          "children": [
-            {
-              "type": "text",
-              "value": "Commonmark:",
-              "position": {
-                "start": {
-                  "line": 19,
-                  "column": 3
-                },
-                "end": {
-                  "line": 19,
-                  "column": 14
-                },
-                "indent": []
-              }
-            }
-          ],
+          "type": "text",
+          "value": "Same for angle brackets:",
           "position": {
             "start": {
               "line": 19,
@@ -528,7 +512,7 @@
             },
             "end": {
               "line": 19,
-              "column": 16
+              "column": 25
             },
             "indent": []
           }
@@ -541,6 +525,99 @@
         },
         "end": {
           "line": 19,
+          "column": 25
+        },
+        "indent": []
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": ">",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 1
+            },
+            "end": {
+              "line": 21,
+              "column": 3
+            },
+            "indent": []
+          }
+        },
+        {
+          "type": "text",
+          "value": " not a block quote",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 3
+            },
+            "end": {
+              "line": 21,
+              "column": 21
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 21,
+          "column": 1
+        },
+        "end": {
+          "line": 21,
+          "column": 21
+        },
+        "indent": []
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "strong",
+          "children": [
+            {
+              "type": "text",
+              "value": "Commonmark:",
+              "position": {
+                "start": {
+                  "line": 23,
+                  "column": 3
+                },
+                "end": {
+                  "line": 23,
+                  "column": 14
+                },
+                "indent": []
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 23,
+              "column": 1
+            },
+            "end": {
+              "line": 23,
+              "column": 16
+            },
+            "indent": []
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 23,
+          "column": 1
+        },
+        "end": {
+          "line": 23,
           "column": 16
         },
         "indent": []
@@ -554,11 +631,11 @@
           "value": "Colon should be escaped in URLs:",
           "position": {
             "start": {
-              "line": 21,
+              "line": 25,
               "column": 1
             },
             "end": {
-              "line": 21,
+              "line": 25,
               "column": 33
             },
             "indent": []
@@ -567,11 +644,11 @@
       ],
       "position": {
         "start": {
-          "line": 21,
+          "line": 25,
           "column": 1
         },
         "end": {
-          "line": 21,
+          "line": 25,
           "column": 33
         },
         "indent": []
@@ -596,11 +673,11 @@
                   "value": "http\\://protocol",
                   "position": {
                     "start": {
-                      "line": 23,
+                      "line": 27,
                       "column": 3
                     },
                     "end": {
-                      "line": 23,
+                      "line": 27,
                       "column": 19
                     },
                     "indent": []
@@ -609,11 +686,11 @@
               ],
               "position": {
                 "start": {
-                  "line": 23,
+                  "line": 27,
                   "column": 3
                 },
                 "end": {
-                  "line": 23,
+                  "line": 27,
                   "column": 19
                 },
                 "indent": []
@@ -622,11 +699,11 @@
           ],
           "position": {
             "start": {
-              "line": 23,
+              "line": 27,
               "column": 1
             },
             "end": {
-              "line": 23,
+              "line": 27,
               "column": 19
             },
             "indent": []
@@ -645,11 +722,11 @@
                   "value": "https\\://protocol",
                   "position": {
                     "start": {
-                      "line": 24,
+                      "line": 28,
                       "column": 3
                     },
                     "end": {
-                      "line": 24,
+                      "line": 28,
                       "column": 20
                     },
                     "indent": []
@@ -658,11 +735,11 @@
               ],
               "position": {
                 "start": {
-                  "line": 24,
+                  "line": 28,
                   "column": 3
                 },
                 "end": {
-                  "line": 24,
+                  "line": 28,
                   "column": 20
                 },
                 "indent": []
@@ -671,11 +748,11 @@
           ],
           "position": {
             "start": {
-              "line": 24,
+              "line": 28,
               "column": 1
             },
             "end": {
-              "line": 24,
+              "line": 28,
               "column": 20
             },
             "indent": []
@@ -684,11 +761,11 @@
       ],
       "position": {
         "start": {
-          "line": 23,
+          "line": 27,
           "column": 1
         },
         "end": {
-          "line": 24,
+          "line": 28,
           "column": 20
         },
         "indent": [
@@ -704,11 +781,11 @@
           "value": "Open angle bracket should be escaped:",
           "position": {
             "start": {
-              "line": 26,
+              "line": 30,
               "column": 1
             },
             "end": {
-              "line": 26,
+              "line": 30,
               "column": 38
             },
             "indent": []
@@ -717,11 +794,11 @@
       ],
       "position": {
         "start": {
-          "line": 26,
+          "line": 30,
           "column": 1
         },
         "end": {
-          "line": 26,
+          "line": 30,
           "column": 38
         },
         "indent": []
@@ -746,11 +823,11 @@
                   "value": "\\",
                   "position": {
                     "start": {
-                      "line": 28,
+                      "line": 32,
                       "column": 3
                     },
                     "end": {
-                      "line": 28,
+                      "line": 32,
                       "column": 4
                     },
                     "indent": []
@@ -761,11 +838,11 @@
                   "value": "<div>",
                   "position": {
                     "start": {
-                      "line": 28,
+                      "line": 32,
                       "column": 4
                     },
                     "end": {
-                      "line": 28,
+                      "line": 32,
                       "column": 9
                     },
                     "indent": []
@@ -776,11 +853,11 @@
                   "value": "\\",
                   "position": {
                     "start": {
-                      "line": 28,
+                      "line": 32,
                       "column": 9
                     },
                     "end": {
-                      "line": 28,
+                      "line": 32,
                       "column": 10
                     },
                     "indent": []
@@ -791,11 +868,11 @@
                   "value": "</div>",
                   "position": {
                     "start": {
-                      "line": 28,
+                      "line": 32,
                       "column": 10
                     },
                     "end": {
-                      "line": 28,
+                      "line": 32,
                       "column": 16
                     },
                     "indent": []
@@ -804,11 +881,11 @@
               ],
               "position": {
                 "start": {
-                  "line": 28,
+                  "line": 32,
                   "column": 3
                 },
                 "end": {
-                  "line": 28,
+                  "line": 32,
                   "column": 16
                 },
                 "indent": []
@@ -817,11 +894,11 @@
           ],
           "position": {
             "start": {
-              "line": 28,
+              "line": 32,
               "column": 1
             },
             "end": {
-              "line": 28,
+              "line": 32,
               "column": 16
             },
             "indent": []
@@ -840,11 +917,11 @@
                   "value": "\\<http\\:google.com>",
                   "position": {
                     "start": {
-                      "line": 29,
+                      "line": 33,
                       "column": 3
                     },
                     "end": {
-                      "line": 29,
+                      "line": 33,
                       "column": 22
                     },
                     "indent": []
@@ -853,11 +930,11 @@
               ],
               "position": {
                 "start": {
-                  "line": 29,
+                  "line": 33,
                   "column": 3
                 },
                 "end": {
-                  "line": 29,
+                  "line": 33,
                   "column": 22
                 },
                 "indent": []
@@ -866,11 +943,11 @@
           ],
           "position": {
             "start": {
-              "line": 29,
+              "line": 33,
               "column": 1
             },
             "end": {
-              "line": 29,
+              "line": 33,
               "column": 22
             },
             "indent": []
@@ -879,11 +956,11 @@
       ],
       "position": {
         "start": {
-          "line": 28,
+          "line": 32,
           "column": 1
         },
         "end": {
-          "line": 29,
+          "line": 33,
           "column": 22
         },
         "indent": [
@@ -898,7 +975,7 @@
       "column": 1
     },
     "end": {
-      "line": 30,
+      "line": 34,
       "column": 1
     }
   }
