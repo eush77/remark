@@ -1,0 +1,29 @@
+Characters that should be escaped in general:
+
+\\ \` \* \[ \_
+
+Characters that shouldn't:
+
+{}]()#+-.!>"$%&',/:;=?@^~|
+
+Open parenthesis should be escaped after a shortcut reference:
+
+[ref]\(text)
+
+Hyphen should be escaped at the beginning of a line:
+
+\- not a list item
+\- not a list item
+  \- not a list item
+
+Same for angle brackets:
+
+\> not a block quote
+
+Text under a shortcut reference should be preserved verbatim:
+
+-   [two*three]
+-   [two\*three]
+-   [a\a]
+-   [a\\a]
+-   [a\\\a]

@@ -6,7 +6,7 @@ Characters that shouldn't:
 
 {}]()#+-.!>"$%&',/:;=?@^~|
 
-Open parenthesis should be escaped after closing bracket:
+Open parenthesis should be escaped after a shortcut reference:
 
 [ref]\(text)
 
@@ -22,20 +22,20 @@ Same for angle brackets:
 
 Text under a shortcut reference should be preserved verbatim:
 
-- [two*three]
-- [two\*three]
-- [a\a]
-- [a\\a]
-- [a\\\a]
+-   [two*three]
+-   [two\*three]
+-   [a\a]
+-   [a\\a]
+-   [a\\\a]
 
 **Commonmark:**
 
 Colon should be escaped in URLs:
 
-- http\://protocol
-- https\://protocol
+-   http\://protocol
+-   https\://protocol
 
 Open angle bracket should be escaped:
 
-- \<div>\</div>
-- \<http\:google.com>
+-   \<div>\</div>
+-   \<http\:google.com>
