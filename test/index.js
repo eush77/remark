@@ -1125,7 +1125,7 @@ validateToken = function (context) {
  * @return {Array.<Object>}
  */
 function mergeTextNodes(nodes) {
-    if (nodes.position || !nodes.length) {
+    if (!nodes.length || nodes[0].position) {
         return nodes;
     }
 
